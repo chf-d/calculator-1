@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+}
+
+body{
+    text-align: center;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    background-color: rgb(247, 240, 240);
+    max-width: 272px;
+    padding: 30px 10px 10px 10px;
+    border: 0.5px solid black;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.288);
+}
+
+
+input{
+    padding: 5px;
+    margin-bottom: 12px;
+    width: 260px;
+    height: 45px;
+    border: 1px solid rgb(230, 227, 227);
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.allButtons{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px;
+    margin: 1px;
+    width: 62px;
+    height: 45px;
+    border: 1px solid rgb(230, 227, 227);
+    background-color: white;
+    cursor: pointer;
+}
+
+.CalcButtons{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px;
+    margin: 1px;
+    width: 62px;
+    height: 45px;
+    border: 1px solid rgb(204, 201, 201);
+    background-color: rgb(241, 238, 238);
+    cursor: pointer;
+}
+
+#Worth{
+    background-color: rgb(189, 185, 245);
+}
+
+.allButtons:hover,.CalcButtons:hover{
+    background-color: rgb(168, 164, 164);
+    transition: 0.7s;
+}
+
+.allButtons:active,.CalcButtons:active{
+    background-color: rgb(231, 211, 211);
+    transition: 0.1s;
+}
+
+#Worth:hover{
+    background-color: rgb(133, 114, 245);
+    transition: 0.7s;
+}
+
+#Worth:active{
+    background-color: rgb(189, 185, 245);
+    transition: 0.1s;
+}
